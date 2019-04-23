@@ -15,7 +15,7 @@
 		B033C849226EA1ED00D3E1DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B033C848226EA1ED00D3E1DF /* main.m */; };
 		B033C853226EA1ED00D3E1DF /* BSAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B033C852226EA1ED00D3E1DF /* BSAlertViewDemoTests.m */; };
 		B033C85E226EA1ED00D3E1DF /* BSAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B033C85D226EA1ED00D3E1DF /* BSAlertViewDemoUITests.m */; };
-		B033C86E226EA22A00D3E1DF /* BSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B033C86D226EA22A00D3E1DF /* BSAlertView.m */; };
+		B033C8B0226EF29C00D3E1DF /* BSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B033C8AE226EF29C00D3E1DF /* BSAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B033C859226EA1ED00D3E1DF /* BSAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B033C85D226EA1ED00D3E1DF /* BSAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		B033C85F226EA1ED00D3E1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B033C86C226EA22A00D3E1DF /* BSAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAlertView.h; sourceTree = "<group>"; };
-		B033C86D226EA22A00D3E1DF /* BSAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAlertView.m; sourceTree = "<group>"; };
+		B033C8AE226EF29C00D3E1DF /* BSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAlertView.m; sourceTree = "<group>"; };
+		B033C8AF226EF29C00D3E1DF /* BSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		B033C838226EA1EC00D3E1DF /* BSAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B033C86B226EA20500D3E1DF /* BSAlertView */,
+				B033C8AD226EF29C00D3E1DF /* BSAlertView */,
 				B033C839226EA1EC00D3E1DF /* AppDelegate.h */,
 				B033C83A226EA1EC00D3E1DF /* AppDelegate.m */,
 				B033C83C226EA1EC00D3E1DF /* ViewController.h */,
@@ -136,14 +136,14 @@
 			path = BSAlertViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		B033C86B226EA20500D3E1DF /* BSAlertView */ = {
+		B033C8AD226EF29C00D3E1DF /* BSAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				B033C86C226EA22A00D3E1DF /* BSAlertView.h */,
-				B033C86D226EA22A00D3E1DF /* BSAlertView.m */,
+				B033C8AE226EF29C00D3E1DF /* BSAlertView.m */,
+				B033C8AF226EF29C00D3E1DF /* BSAlertView.h */,
 			);
 			path = BSAlertView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B033C86E226EA22A00D3E1DF /* BSAlertView.m in Sources */,
+				B033C8B0226EF29C00D3E1DF /* BSAlertView.m in Sources */,
 				B033C83E226EA1EC00D3E1DF /* ViewController.m in Sources */,
 				B033C849226EA1ED00D3E1DF /* main.m in Sources */,
 				B033C83B226EA1EC00D3E1DF /* AppDelegate.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "BSAlertView/BSAlertView.h"
+#import "BSAlertView.h"
 
 @interface ViewController ()
 
