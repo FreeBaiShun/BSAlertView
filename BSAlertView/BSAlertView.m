@@ -31,7 +31,7 @@
 
 - (void)setUpUI{
     //阴影视图
-    _viewShadow = [[UIView alloc] initWithFrame:CGRectMake(0, 0, BSAlertViewScreenSize.width, BSAlertViewScreenSize.height - BSAlertViewiPhoneXBottomSafeFieldHeight)];
+    _viewShadow = [[UIView alloc] initWithFrame:CGRectMake(0, 0, BSAlertViewScreenSize.width, BSAlertViewScreenSize.height)];
     _viewShadow.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
     [self addSubview:_viewShadow];
     

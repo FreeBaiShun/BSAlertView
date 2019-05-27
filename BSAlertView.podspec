@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "BSAlertView"
-s.version      = "1.0.1"
+s.version      = "1.1.0"
 s.summary      = "A short description of BSAlertView."
 s.description  = <<-DESC
 弹窗提醒 工具
