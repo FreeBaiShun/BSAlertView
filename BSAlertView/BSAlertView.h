@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) UIView *viewMiddle;
 /** 弹窗底部阴影视图 */
 @property (strong, nonatomic) UIView *viewShadow;
+/** 是否显示一个标题 （无subTitle）*/
+@property (assign, nonatomic) NSUInteger isOneTitle;
 
 //事件
 /** 阴影视图点击回调 */
